@@ -75,3 +75,8 @@ ONT or bypass method works on every AT&T installation.
 The wired RT-ACRH18 was updated to its final official 41683 firmware and WPS
 was disabled, preserving AP and Wi-Fi settings. See the
 [upstairs record](docs/upstairs-ap.md) for verification and end-of-life status.
+
+## Public Invidious
+
+A dedicated HTTPS proxy provides public IPv4 access without Tailscale. See the
+[deployment and recovery record](docs/invidious-public.md).

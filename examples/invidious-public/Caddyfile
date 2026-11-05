@@ -1,0 +1,15 @@
+{
+ auto_https disable_redirects
+ admin off
+ default_sni {$PUBLIC_IPV4}
+}
+https://{$PUBLIC_IPV4} {
+ tls {
+  issuer acme {
+   dir https://acme-v02.api.letsencrypt.org/directory
+   profile shortlived
+   disable_http_challenge
+  }
+ }
+ reverse_proxy invidious:3000
+}
