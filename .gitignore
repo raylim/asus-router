@@ -1,0 +1,38 @@
+# Private device material and local configuration
+private/
+credentials/
+work/
+.env
+.env.*
+!.env.example
+asus_router.txt
+asus_token.txt
+att_router.txt
+*.pem
+*.der
+*.key
+*.p12
+*.pfx
+*.CFG
+*.cfg
+*.tgz
+*.tar
+*.tar.gz
+*.pcap
+*.pcapng
+mfg.dat
+dhcp6-duid.hex
+clock.epoch
+
+# Firmware and vendor packages (checksums/provenance belong in Git)
+*.bin
+*.pkgtb
+*.ipk
+*.zip
+*.w
+
+# Runtime files
+__pycache__/
+*.pyc
+*.log
+.DS_Store

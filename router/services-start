@@ -1,0 +1,3 @@
+#!/bin/sh
+# Start AT&T EAP-TLS authentication after system services are initialized.
+[ -f /jffs/att-bypass/disabled ] || nohup /jffs/att-bypass/monitor.sh >> /tmp/att-bypass-monitor.log 2>&1 < /dev/null &

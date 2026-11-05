@@ -1,0 +1,14 @@
+# Replace the placeholder locally; this example is not deployable as-is.
+ctrl_interface=/var/run/att-eapol
+eapol_version=2
+ap_scan=0
+fast_reauth=1
+network={
+ key_mgmt=IEEE8021X
+ eap=TLS
+ identity="<GATEWAY_WAN_MAC>"
+ ca_cert="/jffs/att-bypass/ca.pem"
+ client_cert="/jffs/att-bypass/client.pem"
+ private_key="/jffs/att-bypass/privatekey.pem"
+ eapol_flags=0
+}

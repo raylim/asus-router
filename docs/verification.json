@@ -1,0 +1,57 @@
+{
+  "tested_local_date": "2026-11-04",
+  "timezone": "America/Los_Angeles",
+  "hardware": {
+    "marketing_model": "RT-AX3000",
+    "firmware_platform": "RT-AX58U_V2"
+  },
+  "firmware": "GNUton 3004.388.11_1-gnuton1",
+  "auth_client": "Community wpa_supplicant 2.7",
+  "topology": "external ONT -> ASUS WAN -> home LAN",
+  "post_reboot": {
+    "uptime_seconds": 67.02,
+    "clock_valid_for_current_certificates": true,
+    "IPv4_WAN_connected": true,
+    "EAP_authentication_succeeded": true,
+    "IPv6_LAN_global_address": true,
+    "IPv6_default_route": true,
+    "IPv6_firewall_enabled": true,
+    "monitor_running": true
+  },
+  "client_checks": {
+    "-4": {
+      "exit": 0,
+      "HTTP": "200"
+    },
+    "-6": {
+      "exit": 0,
+      "HTTP": "200"
+    },
+    "Pi_hole": 200,
+    "Home_Assistant": 200,
+    "DNS_resolves": true
+  },
+  "final_settings": {
+    "sshd_enable": "0",
+    "wan0_state_t": "2",
+    "wan0_sbstate_t": "0",
+    "ipv6_service": "dhcp6",
+    "ipv6_dhcp_pd": "1",
+    "ipv6_fw_enable": "1",
+    "ipv6_prefix_len_wan": "60"
+  },
+  "rollback_execution": "Prepared and syntax-checked; final deployed rollback was not exercised",
+  "unverified": [
+    "BitTorrent stability under load",
+    "Sustained throughput",
+    "Carrier-side VLAN tagging",
+    "Exact ONT model and PON technology"
+  ],
+  "spare_gateway": {
+    "model": "BGW210-700",
+    "current_firmware": "3.18.2_ENG",
+    "recovery_attempt": "4.26.11 upload rebooted but did not apply",
+    "LAN_and_passthrough_restored": true,
+    "recommended_state": "Powered off pending firmware restoration"
+  }
+}

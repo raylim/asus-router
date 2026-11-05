@@ -1,0 +1,30 @@
+[
+  {
+    "name": "spTurquoise210-700_4.26.11.bin",
+    "size": 75040036,
+    "sha256": "1c82938fc35b10d2916c9ed7bde28a44451e62c8d82da125cd360f77794e2335",
+    "sha1": "7d8cdb3651188ea668628f5cbd15c81da0169440",
+    "md5": "3ec7ea7a110d18b0989d42e5e2c23190"
+  },
+  {
+    "name": "spTurquoise210-700_3.18.2_ENG.bin",
+    "size": 72557124,
+    "sha256": "81f24c5566eb1049c3a9c867892574c9e1536c46505acdc530ec49046036a3e2",
+    "sha1": "46ed322c4b343273172a2143b8f94b8c551be0e5",
+    "md5": "8d92d030e706b71fbc7ba8f4d5888ec7"
+  },
+  {
+    "name": "spTurquoise210-700_2.14.2_NO_AT.bin",
+    "size": 56495384,
+    "sha256": "c36fec67fa7f735222aba9d7a8e88def1cd55050b76af6c4d10ba68a5f0d382f",
+    "sha1": "e18115da88c3be8dd06806955f32e8b730407e8b",
+    "md5": "da46862eab89212439507b6e1792b2d1"
+  },
+  {
+    "name": "spTrapeze_Turquoise210-700_3.18.1.bin",
+    "size": 76025112,
+    "sha256": "ef5f38a9560a9cf4f49e4e4520fd082b342798145eee3f4a1a74a9c7800eb6d1",
+    "sha1": "c2cafb7fb81e68238be938aed0e302e3b6522ef8",
+    "md5": "da1bd55bf48754823e75089baead74da"
+  }
+]
