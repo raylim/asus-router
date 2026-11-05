@@ -14,7 +14,7 @@
   "before_and_after_private_backups_saved": true,
   "vendor_EOL": true,
   "wireless_client_reconnected": true,
-  "phone_website_confirmation": "not independently verified; a wireless client reassociated",
+  "phone_website_confirmation": "User confirmed a website opens while connected to the upstairs access point",
   "verified_local_date": "2026-11-05",
   "main_IPv4_and_IPv6_HTTPS": 200
 }

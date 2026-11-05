@@ -24,7 +24,8 @@ compared afterward, including both Wi-Fi names/passwords, authentication,
 encryption, addressing, AP mode and radio settings. Only `extendno` and
 `wps_enable` changed. Both radios remained enabled, and a wireless client
 reassociated. Main-network HTTPS checks returned 200 over IPv4 and IPv6.
-A final private settings backup was also saved.
+The user then confirmed that a phone could open a website while connected
+to the upstairs access point. A final private settings backup was also saved.
 
 The first final-backup request timed out during the wireless restart. A
 subsequent live inspection verified the firmware and WPS state and obtained
