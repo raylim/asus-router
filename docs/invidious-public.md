@@ -26,8 +26,8 @@ Verification: public-IP HTTPS request returned 200 after one redirect, with
 strict certificate verification passing and Invidious content present.
 Let's Encrypt independently completed external TLS-ALPN validation. Proxy,
 Invidious, database and companion containers are running; Pi-hole remains active.
-Phone playback confirmation is pending. This does not establish video playback
-or performance under public load.
+The user confirmed that Invidious loads and plays video on a phone over cellular
+with Wi-Fi and Tailscale off. Performance under public load was not tested.
 
 If the ISP changes the WAN IPv4, update `.env` and the Invidious domain setting,
 then recreate the proxy and application containers. The old address will no
