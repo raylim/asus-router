@@ -1,0 +1,20 @@
+{
+  "model": "RT-ACRH18",
+  "firmware_before": "3.0.0.4.382_41223-gc05f969",
+  "firmware_after": "3.0.0.4.382_41683-gac7107a",
+  "AP_mode_preserved": true,
+  "network_and_WiFi_settings_preserved": true,
+  "WPS_disabled": true,
+  "radios_enabled": true,
+  "unexpected_changes": [],
+  "changed_fields": [
+    "extendno",
+    "wps_enable"
+  ],
+  "before_and_after_private_backups_saved": true,
+  "vendor_EOL": true,
+  "wireless_client_reconnected": true,
+  "phone_website_confirmation": "not independently verified; a wireless client reassociated",
+  "verified_local_date": "2026-11-05",
+  "main_IPv4_and_IPv6_HTTPS": 200
+}

@@ -1,0 +1,16 @@
+{
+  "source": "https://dlcdnets.asus.com/pub/ASUS/wireless/RT-ACRH18/FW_RT_ACRH18_300438241683.zip",
+  "release": "3.0.0.4.382_41683",
+  "release_date": "2023-11-30",
+  "zip_sha256": "8558a7a5b40a65d46325aeee1e32c7da8438b3d9ab690dc66351eeb137e074e1",
+  "published_image_sha256": "4386306e96c5310eb0ff3a5e5d055b8481ede9552113b34768359aa7cb55074c",
+  "images": [
+    {
+      "name": "RT-ACRH18_3.0.0.4_382_41683-gac7107a.trx",
+      "bytes": 20440074,
+      "sha256": "4386306e96c5310eb0ff3a5e5d055b8481ede9552113b34768359aa7cb55074c",
+      "matches_ASUS_published_SHA256": true
+    }
+  ],
+  "published_checksum_verified": true
+}

@@ -5,9 +5,9 @@ work/
 .env
 .env.*
 !.env.example
-asus_router.txt
-asus_token.txt
-att_router.txt
+asus_router*.txt
+asus_token*.txt
+att_router*.txt
 *.pem
 *.der
 *.key

@@ -69,3 +69,9 @@ throughput were not tested.
 
 This records a verified deployment, rather than a claim that the same firmware,
 ONT or bypass method works on every AT&T installation.
+
+## Upstairs access point
+
+The wired RT-ACRH18 was updated to its final official 41683 firmware and WPS
+was disabled, preserving AP and Wi-Fi settings. See the
+[upstairs record](docs/upstairs-ap.md) for verification and end-of-life status.
